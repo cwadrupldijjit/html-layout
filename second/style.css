@@ -1,0 +1,17 @@
+article {
+	width: 100%;
+	height: 768px;
+	background-color: #5EE8A5;
+}
+
+#left, #right {
+	height: 768px;
+}
+
+#left {
+	background-color: #6C96E8;
+}
+
+#right {
+	background-color: #9FFF94;
+}
