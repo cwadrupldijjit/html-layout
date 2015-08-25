@@ -1,17 +1,32 @@
-article {
-	width: 100%;
+article, #left, #right {
 	height: 768px;
-	background-color: #5EE8A5;
 }
 
-#left, #right {
-	height: 768px;
+article {
+	width: 100%;
+	background-color: #5EE8A5;
+	position: relative;
 }
 
 #left {
 	background-color: #6C96E8;
+	float: left;
+	width: 33%;
 }
 
 #right {
 	background-color: #9FFF94;
+	float: right;
+	width: 33%;
+	vertical-align: bottom;
+}
+
+#img-placeholder {
+	height: 260px;
+	width: 33%;
+	/*background-color: red;*/
+	background-image: url("http://wallpapertvs.com/wp-content/uploads/2014/07/rocket_raccoon_2014-wallpaper-1366x768.jpg");
+	background-size: 100%;
+	position: absolute;
+	bottom: 0;
 }
