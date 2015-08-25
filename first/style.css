@@ -1,18 +1,14 @@
-body {
-	background-color: green;
-}
-
 #header, #footer {
 	height: 150px;
 }
 
 #header {
-	background-color: gray;
+	background-color: #3E4242;
 	height: 150px;
 }
 
 #left, #right {
-	background-color: lightgray;
+	background-color: #E0E0E0;
 	height: 768px;
 	width: 150px;
 }
@@ -26,7 +22,6 @@ body {
 }
 
 #footer {
-	position: absolute;
-	top: 700px;
-	color: black;
+	margin-top: 618px;
+	background-color: #1A1C1C;
 }
