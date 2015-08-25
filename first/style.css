@@ -1,9 +1,32 @@
-header {
-	color: gray;
-	height: 100px;
+body {
+	background-color: green;
 }
 
-footer {
+#header, #footer {
+	height: 150px;
+}
+
+#header {
+	background-color: gray;
+	height: 150px;
+}
+
+#left, #right {
+	background-color: lightgray;
+	height: 768px;
+	width: 150px;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+}
+
+#footer {
+	position: absolute;
+	top: 700px;
 	color: black;
-	height: 100px;
 }
