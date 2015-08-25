@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 100px;
+	background-color: lightgray;
+}
+
+nav {
+	width: 90px;
+	height: 90px;
+	
+	margin-left: 30px;
+}
+
+article {
+	padding: 50px;
+	font-size: 22pt;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blue {
+	background-color: #5B82E8;
+}
+
+.mint-green {
+	background-color: #4DE8C6;
+}
+
+.lime-green {
+	background-color: #84FF81;
+}
+
+.acid-green {
+	background-color: #E3FF52;
+}
+
+.bottom-divs {
+	height: 150px;
+}
